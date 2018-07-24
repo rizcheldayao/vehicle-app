@@ -1,0 +1,44 @@
+@import '_variables.scss';
+
+.search {
+  display: flex;
+
+  .input {
+    height: 48px;
+    width: 200px;
+    border: 1px solid $blue;
+    font-size: 16px;
+    color: $blue;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-right: 2em;
+    text-indent: 10px;
+  }
+
+  input::placeholder {
+    color: $blue;
+  }
+
+  input[type=text]:focus {
+    outline: none;
+  }
+
+  .button {
+    transition: all 0.3s ease 0s;
+    height: 52px;
+    min-width: 100px;
+    border: 1px solid $blue;
+    color: $blue;
+    background: none;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase;
+    outline: none;
+  }
+
+  .button:hover {
+    color: $white;
+    background: $blue;
+    outline: none;
+  }
+}

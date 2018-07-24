@@ -1,0 +1,23 @@
+@import '_variables.scss';
+
+.details {
+  &-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button {
+    border: none;
+    color: $blue;
+    font-size: 15px;
+    padding-bottom: 1rem;
+    text-decoration: underline;
+    cursor: pointer;
+    outline: none;
+  }
+
+  img {
+    width: 500px;
+  }
+}

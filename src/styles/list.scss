@@ -1,0 +1,14 @@
+@import '_variables.scss';
+
+.list {
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+  }
+}
+
+.error {
+  color: $blue;
+}

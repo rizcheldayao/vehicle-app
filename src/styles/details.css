@@ -1,0 +1,16 @@
+.details-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.details button {
+  border: none;
+  color: #2d74da;
+  font-size: 15px;
+  padding-bottom: 1rem;
+  text-decoration: underline;
+  cursor: pointer;
+  outline: none; }
+
+.details img {
+  width: 500px; }

@@ -1,0 +1,19 @@
+@import '_variables.scss';
+
+table {
+  width: 100%;
+}
+
+thead {
+  background: $blue;
+  color: $white;
+}
+
+th, td {
+  padding: 8px;
+}
+
+tr:hover {
+  cursor: pointer;
+  background: $light-blue;
+}

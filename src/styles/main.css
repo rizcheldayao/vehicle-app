@@ -1,0 +1,123 @@
+.sort-dropdown {
+  position: relative;
+  display: inline-block; }
+  .sort-dropdown:hover .sort-menu {
+    display: block; }
+
+.sort-button {
+  background-color: #2d74da;
+  color: white;
+  padding: 16px 68px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer; }
+
+.sort-menu {
+  z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #e1ebf7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
+  .sort-menu p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; }
+    .sort-menu p:hover {
+      background-color: #79a6f6;
+      cursor: pointer; }
+
+.search {
+  display: flex; }
+  .search .input {
+    height: 48px;
+    width: 200px;
+    border: 1px solid #2d74da;
+    font-size: 16px;
+    color: #2d74da;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-right: 2em;
+    text-indent: 10px; }
+  .search input::placeholder {
+    color: #2d74da; }
+  .search input[type=text]:focus {
+    outline: none; }
+  .search .button {
+    transition: all 0.3s ease 0s;
+    height: 52px;
+    min-width: 100px;
+    border: 1px solid #2d74da;
+    color: #2d74da;
+    background: none;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase;
+    outline: none; }
+  .search .button:hover {
+    color: #fff;
+    background: #2d74da;
+    outline: none; }
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  flex-wrap: wrap; }
+
+.error {
+  color: #2d74da; }
+
+table {
+  width: 100%; }
+
+thead {
+  background: #2d74da;
+  color: #fff; }
+
+th, td {
+  padding: 8px; }
+
+tr:hover {
+  cursor: pointer;
+  background: #e1ebf7; }
+
+.details-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.details button {
+  border: none;
+  color: #2d74da;
+  font-size: 15px;
+  padding-bottom: 1rem;
+  text-decoration: underline;
+  cursor: pointer;
+  outline: none; }
+
+.details img {
+  width: 500px; }
+
+*::after, *::before {
+  box-sizing: border-box; }
+
+main {
+  display: flex;
+  height: 100%; }
+
+html,
+body {
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.App {
+  margin: 4rem; }
+
+@media only screen and (max-width: 500px) {
+  .App {
+    margin: 1rem 0; } }

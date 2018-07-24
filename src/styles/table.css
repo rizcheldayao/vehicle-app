@@ -1,0 +1,13 @@
+table {
+  width: 100%; }
+
+thead {
+  background: #2d74da;
+  color: #fff; }
+
+th, td {
+  padding: 8px; }
+
+tr:hover {
+  cursor: pointer;
+  background: #e1ebf7; }
